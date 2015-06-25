@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'dummy',
     environment: environment,
-    baseURL: '/',
+    baseURL: '/ember-cli-sticky',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -29,7 +29,7 @@ module.exports = function(environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.baseURL = '/';
+    ENV.baseURL = '/ember-cli-sticky';
     ENV.locationType = 'none';
 
     // keep test console output quieter
