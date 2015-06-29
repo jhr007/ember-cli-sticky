@@ -520,7 +520,7 @@ catch(err) {
 if (runningTests) {
   require("dummy/tests/test-helper");
 } else {
-  require("dummy/app")["default"].create({"name":"ember-cli-sticky","version":"0.1.4.1f703dd9"});
+  require("dummy/app")["default"].create({"name":"ember-cli-sticky","version":"0.1.4.bcce8122"});
 }
 
 /* jshint ignore:end */
